@@ -3,4 +3,13 @@
     <string name="start_now">Start Now</string>
     <string name="login_now">Login Now</string>
     <string name="register_now">Register Now</string>
+    <string name="range_question">1 / 10</string>
+    <string name="example_question">\'\' Example Question \'\'</string>
+    <string name="radiobutton_A">A</string>
+    <string name="radiobutton_B">B</string>
+    <string name="radiobutton_C">C</string>
+    <string name="radiobutton_D">D</string>
+    <string name="prev">PREV</string>
+    <string name="hint">HINT</string>
+    <string name="next">NEXT</string>
 </resources>

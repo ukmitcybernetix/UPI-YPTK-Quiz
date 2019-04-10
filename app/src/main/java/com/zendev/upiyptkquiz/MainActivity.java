@@ -1,8 +1,12 @@
 package com.zendev.upiyptkquiz;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Handler;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
@@ -45,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_start:
+                Intent moveQuiz = new Intent(this, QuizActivity.class);
+                startActivity(moveQuiz);
                 break;
             case R.id.btn_login:
                 Toast.makeText(this, "Under Construction", Toast.LENGTH_LONG).show();
@@ -53,5 +59,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this, "Under Construction", Toast.LENGTH_LONG).show();
                 break;
         }
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+
+            AlertDialog.Builder dialog=new AlertDialog.Builder(MainActivity.this,R.style.AlertDialogTheme);
+            dialog.setTitle("Exit App");
+            dialog.setMessage("Are You Sure ?");
+            dialog.setCancelable(false);
+            dialog.setPositiveButton("No", new DialogInterface.OnClickListener(){
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                }
+            })
+                    .setNegativeButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            finish();
+                        }
+                    })
+                    .create()
+                    .show();
+        }
+        return true;
     }
 }

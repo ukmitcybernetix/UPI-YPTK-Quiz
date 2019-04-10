@@ -10,4 +10,54 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/dongker</item>
+    </style>
+
+    <style name="Description">
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ActionBar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Quiz">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="HintImg">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="View">
+        <item name="android:layout_width">0.2dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="ScoreDescription">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/black</item>
+
+    </style>
+
 </resources>
