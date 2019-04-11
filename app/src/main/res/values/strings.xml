@@ -25,4 +25,5 @@
     <string name="right_text">RIGHT</string>
     <string name="wrong_text">WRONG</string>
     <string name="blank_text">BLANK</string>
+    <string name="pembahasan">pembahasan</string>
 </resources>

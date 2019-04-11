@@ -26,6 +26,7 @@
     <style name="ActionBar">
         <item name="android:textSize">15sp</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/dongker</item>
     </style>
 
     <style name="Quiz">

@@ -281,4 +281,8 @@ public class QuizActivity extends AppCompatActivity {
             }
         }
     }
+
+    public static Quiz getQuiz() {
+        return quiz;
+    }
 }
