@@ -141,7 +141,7 @@ public class QuizActivity extends AppCompatActivity {
                 }
 
                 if(indekValue == 9){
-                    btnNextTextView.setText("FINISH");
+                    btnNextTextView.setText(getString(R.string.finish_text));
                 }
 
                 setView(quiz, indekValue);
@@ -179,7 +179,7 @@ public class QuizActivity extends AppCompatActivity {
                 }
 
                 if(indekValue < 9) {
-                    btnNextTextView.setText("NEXT");
+                    btnNextTextView.setText(R.string.next);
                 }
 
                 setView(quiz, indekValue);
@@ -224,34 +224,34 @@ public class QuizActivity extends AppCompatActivity {
 
         switch (indek) {
             case 0:
-                quizTextView.setBackgroundColor(Color.BLUE);
+                quizTextView.setBackgroundColor(Color.parseColor("#21293D"));
                 break;
             case 1:
-                quizTextView.setBackgroundColor(Color.GRAY);
+                quizTextView.setBackgroundColor(Color.DKGRAY);
                 break;
             case 2:
-                quizTextView.setBackgroundColor(Color.RED);
+                quizTextView.setBackgroundColor(Color.BLACK);
                 break;
             case 3:
-                quizTextView.setBackgroundColor(Color.MAGENTA);
+                quizTextView.setBackgroundColor(Color.parseColor("#21293D"));
                 break;
             case 4:
                 quizTextView.setBackgroundColor(Color.DKGRAY);
                 break;
             case 5:
-                quizTextView.setBackgroundColor(Color.BLUE);
-                break;
-            case 6:
                 quizTextView.setBackgroundColor(Color.BLACK);
                 break;
+            case 6:
+                quizTextView.setBackgroundColor(Color.parseColor("#21293D"));
+                break;
             case 7:
-                quizTextView.setBackgroundColor(Color.RED);
+                quizTextView.setBackgroundColor(Color.DKGRAY);
                 break;
             case 8:
-                quizTextView.setBackgroundColor(Color.BLUE);
+                quizTextView.setBackgroundColor(Color.BLACK);
                 break;
             case 9:
-                quizTextView.setBackgroundColor(Color.DKGRAY);
+                quizTextView.setBackgroundColor(Color.parseColor("#21293D"));
                 break;
         }
     }

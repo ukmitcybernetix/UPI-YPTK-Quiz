@@ -49,7 +49,7 @@
     </style>
 
     <style name="ScoreDescription">
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dongker</item>
         <item name="android:textSize">25sp</item>
     </style>
 

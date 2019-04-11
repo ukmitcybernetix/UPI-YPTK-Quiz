@@ -12,4 +12,17 @@
     <string name="prev">PREV</string>
     <string name="hint">HINT</string>
     <string name="next">NEXT</string>
+    <string name="finish_text">FINISH</string>
+    <string name="score">Score</string>
+    <string name="score_value">100</string>
+    <string name="answer">Answer</string>
+    <string name="right">Right</string>
+    <string name="wrong">Wrong</string>
+    <string name="blank">Blank</string>
+    <string name="right_value">5</string>
+    <string name="wrong_value">3</string>
+    <string name="blank_value">2</string>
+    <string name="right_text">RIGHT</string>
+    <string name="wrong_text">WRONG</string>
+    <string name="blank_text">BLANK</string>
 </resources>
